@@ -11,6 +11,8 @@ import QuartzCore
 import SceneKit
 
 class GameViewController: UIViewController {
+    
+    var mask : SCNNode?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +42,28 @@ class GameViewController: UIViewController {
         ambientLightNode.light!.color = UIColor.darkGrayColor()
         scene.rootNode.addChildNode(ambientLightNode)
         
+        // Add a floor and assign it a color
+        let plane = SCNFloor()
+        let planeNode = SCNNode(geometry: plane)
+        planeNode.position = SCNVector3Make(0,-2,0)
+        plane.firstMaterial!.diffuse.contents = UIColor.orangeColor()
+        // Turn off reflection
+        plane.reflectivity = 0
+        // Assign it a rendering order to be rendered last. So the floor is visible through our alpha masking sphere
+        planeNode.renderingOrder = -3
+        scene.rootNode.addChildNode(planeNode);
+        
+        // Add a alpha masking sphere
+        let sphere = SCNSphere(radius: 2)
+        let sphereNode = SCNNode(geometry: sphere)
+        scene.rootNode.addChildNode(sphereNode)
+        sphere.firstMaterial = SCNMaterial()
+        sphere.firstMaterial?.diffuse.contents = UIColor.blueColor()
+        sphere.firstMaterial!.transparencyMode = SCNTransparencyMode.RGBZero
+        // The sphere render order should be higher than the floor as we would want to see the floor through the transparent sphere
+        sphereNode.renderingOrder = -2;
+        mask = sphereNode
+        
         // retrieve the ship node
         let ship = scene.rootNode.childNodeWithName("ship", recursively: true)!
         
@@ -51,6 +75,8 @@ class GameViewController: UIViewController {
         
         // set the scene to the view
         scnView.scene = scene
+        
+        scene.background.contents = UIColor.blueColor()
         
         // allows the user to manipulate the camera
         scnView.allowsCameraControl = true
@@ -74,6 +100,12 @@ class GameViewController: UIViewController {
     func handleTap(gestureRecognize: UIGestureRecognizer) {
         // retrieve the SCNView
         let scnView = self.view as SCNView
+        
+        if(mask!.geometry?.firstMaterial?.transparencyMode == SCNTransparencyMode.RGBZero) {
+            mask!.geometry?.firstMaterial?.transparencyMode = SCNTransparencyMode.AOne
+        }else {
+            mask!.geometry?.firstMaterial?.transparencyMode = SCNTransparencyMode.RGBZero
+        }
         
         // check what nodes are tapped
         let p = gestureRecognize.locationInView(scnView)
