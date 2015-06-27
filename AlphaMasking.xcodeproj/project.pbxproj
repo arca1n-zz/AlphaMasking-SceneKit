@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4459E031B3EEE180048EE4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4459E021B3EEE180048EE4B /* AppDelegate.swift */; };
+		C4459E051B3EEE180048EE4B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C4459E041B3EEE180048EE4B /* art.scnassets */; };
+		C4459E071B3EEE180048EE4B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4459E061B3EEE180048EE4B /* GameViewController.swift */; };
+		C4459E0A1B3EEE180048EE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4459E081B3EEE180048EE4B /* Main.storyboard */; };
+		C4459E0C1B3EEE180048EE4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4459E0B1B3EEE180048EE4B /* Images.xcassets */; };
+		C4459E0F1B3EEE180048EE4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4459E0D1B3EEE180048EE4B /* LaunchScreen.xib */; };
+		C4459E1B1B3EEE180048EE4B /* AlphaMaskingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4459E1A1B3EEE180048EE4B /* AlphaMaskingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4459E151B3EEE180048EE4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4459DF51B3EEE180048EE4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4459DFC1B3EEE180048EE4B;
+			remoteInfo = AlphaMasking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4459DFD1B3EEE180048EE4B /* AlphaMasking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaMasking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4459E011B3EEE180048EE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4459E021B3EEE180048EE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4459E041B3EEE180048EE4B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C4459E061B3EEE180048EE4B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C4459E091B3EEE180048EE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4459E0B1B3EEE180048EE4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4459E0E1B3EEE180048EE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C4459E141B3EEE180048EE4B /* AlphaMaskingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaMaskingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4459E191B3EEE180048EE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4459E1A1B3EEE180048EE4B /* AlphaMaskingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaMaskingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4459DFA1B3EEE180048EE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4459E111B3EEE180048EE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4459DF41B3EEE180048EE4B = {
+			isa = PBXGroup;
+			children = (
+				C4459DFF1B3EEE180048EE4B /* AlphaMasking */,
+				C4459E171B3EEE180048EE4B /* AlphaMaskingTests */,
+				C4459DFE1B3EEE180048EE4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4459DFE1B3EEE180048EE4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4459DFD1B3EEE180048EE4B /* AlphaMasking.app */,
+				C4459E141B3EEE180048EE4B /* AlphaMaskingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4459DFF1B3EEE180048EE4B /* AlphaMasking */ = {
+			isa = PBXGroup;
+			children = (
+				C4459E021B3EEE180048EE4B /* AppDelegate.swift */,
+				C4459E041B3EEE180048EE4B /* art.scnassets */,
+				C4459E061B3EEE180048EE4B /* GameViewController.swift */,
+				C4459E081B3EEE180048EE4B /* Main.storyboard */,
+				C4459E0B1B3EEE180048EE4B /* Images.xcassets */,
+				C4459E0D1B3EEE180048EE4B /* LaunchScreen.xib */,
+				C4459E001B3EEE180048EE4B /* Supporting Files */,
+			);
+			path = AlphaMasking;
+			sourceTree = "<group>";
+		};
+		C4459E001B3EEE180048EE4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4459E011B3EEE180048EE4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4459E171B3EEE180048EE4B /* AlphaMaskingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4459E1A1B3EEE180048EE4B /* AlphaMaskingTests.swift */,
+				C4459E181B3EEE180048EE4B /* Supporting Files */,
+			);
+			path = AlphaMaskingTests;
+			sourceTree = "<group>";
+		};
+		C4459E181B3EEE180048EE4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4459E191B3EEE180048EE4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4459DFC1B3EEE180048EE4B /* AlphaMasking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4459E1E1B3EEE180048EE4B /* Build configuration list for PBXNativeTarget "AlphaMasking" */;
+			buildPhases = (
+				C4459DF91B3EEE180048EE4B /* Sources */,
+				C4459DFA1B3EEE180048EE4B /* Frameworks */,
+				C4459DFB1B3EEE180048EE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphaMasking;
+			productName = AlphaMasking;
+			productReference = C4459DFD1B3EEE180048EE4B /* AlphaMasking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4459E131B3EEE180048EE4B /* AlphaMaskingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4459E211B3EEE180048EE4B /* Build configuration list for PBXNativeTarget "AlphaMaskingTests" */;
+			buildPhases = (
+				C4459E101B3EEE180048EE4B /* Sources */,
+				C4459E111B3EEE180048EE4B /* Frameworks */,
+				C4459E121B3EEE180048EE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4459E161B3EEE180048EE4B /* PBXTargetDependency */,
+			);
+			name = AlphaMaskingTests;
+			productName = AlphaMaskingTests;
+			productReference = C4459E141B3EEE180048EE4B /* AlphaMaskingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4459DF51B3EEE180048EE4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Alok;
+				TargetAttributes = {
+					C4459DFC1B3EEE180048EE4B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C4459E131B3EEE180048EE4B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C4459DFC1B3EEE180048EE4B;
+					};
+				};
+			};
+			buildConfigurationList = C4459DF81B3EEE180048EE4B /* Build configuration list for PBXProject "AlphaMasking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4459DF41B3EEE180048EE4B;
+			productRefGroup = C4459DFE1B3EEE180048EE4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4459DFC1B3EEE180048EE4B /* AlphaMasking */,
+				C4459E131B3EEE180048EE4B /* AlphaMaskingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4459DFB1B3EEE180048EE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4459E0F1B3EEE180048EE4B /* LaunchScreen.xib in Resources */,
+				C4459E0C1B3EEE180048EE4B /* Images.xcassets in Resources */,
+				C4459E051B3EEE180048EE4B /* art.scnassets in Resources */,
+				C4459E0A1B3EEE180048EE4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4459E121B3EEE180048EE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4459DF91B3EEE180048EE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4459E071B3EEE180048EE4B /* GameViewController.swift in Sources */,
+				C4459E031B3EEE180048EE4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4459E101B3EEE180048EE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4459E1B1B3EEE180048EE4B /* AlphaMaskingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4459E161B3EEE180048EE4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4459DFC1B3EEE180048EE4B /* AlphaMasking */;
+			targetProxy = C4459E151B3EEE180048EE4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4459E081B3EEE180048EE4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4459E091B3EEE180048EE4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4459E0D1B3EEE180048EE4B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4459E0E1B3EEE180048EE4B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4459E1C1B3EEE180048EE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4459E1D1B3EEE180048EE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4459E1F1B3EEE180048EE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlphaMasking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4459E201B3EEE180048EE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlphaMasking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4459E221B3EEE180048EE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlphaMaskingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaMasking.app/AlphaMasking";
+			};
+			name = Debug;
+		};
+		C4459E231B3EEE180048EE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlphaMaskingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaMasking.app/AlphaMasking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4459DF81B3EEE180048EE4B /* Build configuration list for PBXProject "AlphaMasking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4459E1C1B3EEE180048EE4B /* Debug */,
+				C4459E1D1B3EEE180048EE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4459E1E1B3EEE180048EE4B /* Build configuration list for PBXNativeTarget "AlphaMasking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4459E1F1B3EEE180048EE4B /* Debug */,
+				C4459E201B3EEE180048EE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4459E211B3EEE180048EE4B /* Build configuration list for PBXNativeTarget "AlphaMaskingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4459E221B3EEE180048EE4B /* Debug */,
+				C4459E231B3EEE180048EE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4459DF51B3EEE180048EE4B /* Project object */;
+}
